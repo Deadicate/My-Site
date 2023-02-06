@@ -1,7 +1,8 @@
 <!doctype html>
   <html lang='en-UK' dir='ltr'>
     <head>
-      <meta charset='utf-8'> 
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
       <meta name='viewport' content='width=device-width, initial-scale=1'>
       <title>Ian Moore's Personal Site</title>
       <meta name='description' content='Ian Moores personal site to showcase my software development skills'>
@@ -9,12 +10,53 @@
     <!-- add more meta elements, check my notes and online to see what is needed -->
     <!-- Make this site HTTPS secure -->
     <!-- Make sure i use SSH for my link to my site. -->
-    
+
+    <!-- These 5 properties are needed to make effective social cards-->
+    <!-- TODO: add in the url and image for the social card meta attributes. -->
+      <meta property="og:title" content="Moore Code">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.moore-code.com/">
+      <meta property="og:description" content="The personal web page of I Moore to show off my software development skills and experiment.">
+      <meta property="og:image" content="images/MooreCodes.png">
+
+      <!-- favicons and touch icon for Apple -->
+      <link rel="icon" href="/favicon.ico">
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+      <link rel="stylesheet" href="CSS/styles.css">
 
 
 
     </head>
     <body>
+      <!-- My Navigation bar featuing links to 1. About me. 2. Portfolie 3. Skills
+          4. Contact me 5. Github link 6. LinkedIn -->
+      <nav class="navbar">
+      <!-- LOGO -->
+        <div class="logo">Moore Codes</div>
+      <!-- NAVIGATION MENU -->
+          <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+              <li><a href="/">About Me</a></li>
+              <li><a href="/">My Portfolio</a></li>
+              <li><a href="/">Skills</a></li>
+              <li><a href="/">Contact Me</a></li>
+              <li><a href="/">GitHub link</a></li>
+              <li><a href="/">Linked In</a></li>
+            </div>
+          </ul>
+        </nav>
+
+        <!-- Section with info about me. Make it fun and engaging and honest and some nice pics of me and my family. -->
+        <Title>About Me</Title>
+        <article>
+          <p></p>
+        </article>
 
 
 
