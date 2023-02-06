@@ -10,3 +10,4 @@ Notes for Me
 3. Add in a drop down menu to my nav bar.
 4. Use Stable Diffusion to create a great Phatasy image of myself, simple, clean and hi-res.
 5. Create and add a logo to things. look for advice on designing a logo. Use MC for Moore codes and find a way to link them together. look for other great logos.
+6. Make sure i make my site accesible to all and look into making things accesible for disabled users.
