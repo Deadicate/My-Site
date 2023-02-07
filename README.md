@@ -11,3 +11,7 @@ Notes for Me
 4. Use Stable Diffusion to create a great Phatasy image of myself, simple, clean and hi-res.
 5. Create and add a logo to things. look for advice on designing a logo. Use MC for Moore codes and find a way to link them together. look for other great logos.
 6. Make sure i make my site accesible to all and look into making things accesible for disabled users.
+7. Test my site on all browsers and screen sizes - is it fully responsive? Firefox, Edge, Chrome, Safari - any others?
+8. Make a responsive Logo, which says MC, but when you hover over it, it stretches out to say Moore Codes.
+9. Make sure my font-selections are safe. Will i need custom fonts, recall the video from the CSS guy on shrinking Google fonts size down to increase speed.
+10. Make the Colour in my navbar go from one shade on one side to a different on the other side. Make it modern, vibrant colours, blue to purple maybe?
