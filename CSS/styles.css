@@ -18,6 +18,10 @@ h1 {
   text-align: center;
   }
 
+h3 {
+  margin-left: 50px;
+}
+
 p {
   margin-left: 50px;
   margin-right: 50px;
@@ -51,7 +55,7 @@ li {
 .menu {
   display: flex;
   gap: .8rem;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   }
 
 .menu li:hover {
@@ -65,28 +69,87 @@ li {
   }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding: .5rem
-  }
-
-.myimg {
-  padding: 1em;
-  border-radius: 50%;
-  align-items: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}  
+  } 
 
 footer {
 display: flex;
-height: 2rem;
+height: 10rem;
 align-items: center;
 justify-content: space-between;
 padding: .5rem;
 background-color: rgb(210, 219, 242);
 color: #0d0d0d;
 margin-top: 1rem;
+}
+
+/****************** Introduction Section ***************************/
+
+.intro-container {
+  background: lightblue;
+  height: 60vh;
+  width: 99%;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row; /* This is default, not needed */
+  flex-wrap: wrap;
+  align-content: normal;
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+
+.intro-container div {
+  background: rgb(229, 229, 245);
+  height: 600px;
+  width: 600px;
+}
+
+.intro-container .intro-text {
+  font-size: large;
+}
+
+.intro-container .laptop-img {
+  /* align-items: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+/****************** About Me Section ***************************/
+
+.about-me-container {
+  background: lightblue;
+  height: 700px;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row; /* This is default, not needed */
+  flex-wrap: wrap;
+  align-content: normal;
+  gap: 1rem;
+  /* justify-content: space-between; */
+}
+
+.about-me-container .my-img {
+  /* padding: 1em; */
+  background: mediumblue;
+  /* border-radius: 50%;
+  align-items: center;
+  display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 400px;
+  height: 400px;
+  align-content: center;
+}
+
+.about-me-container .about-me-text {
+  background: rgb(229, 229, 245);
+  width: 600px;
+  height: 600px;
+  font-size: large;
 }
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
