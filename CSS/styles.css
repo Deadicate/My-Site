@@ -1,4 +1,11 @@
 /* UTILITIES */
+@font-face {
+  font-family: 'sansationregular';
+  src: url('../Fonts/Sansation-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +14,7 @@
   /* Could i download and use the Sansation font? */
 body {
   background-color: rgb(250, 248, 246);
-  font-family: Sansation, Georgia, 'Times New Roman', Times, serif ;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
   }
   
 h1 {
@@ -27,6 +34,7 @@ p {
   margin-right: 50px;
   margin-top: 10px;
   text-align: justify;
+  font-family: sans-serif;
   }
   
 a {
@@ -50,6 +58,7 @@ li {
 
 .nav-links a {
   color: #090909;
+  font-family: 'sansationregular', Arial, Helvetica, sans-serif;
   }
 
 .menu {
