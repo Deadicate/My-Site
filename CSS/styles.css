@@ -129,10 +129,10 @@ margin-top: 1rem;
 
 /****************** Introduction Section ***************************/
 
-.intro-container {
+.container {
   background: lightblue;
-  height: 80vh;
-  width: 99%;
+  height: 60vh;
+  width: 97%;
   padding: 1rem;
   margin: 1rem;
   display: flex;
@@ -143,25 +143,36 @@ margin-top: 1rem;
   /* justify-content: space-between; */
 }
 
-.intro-container div {
+.container div {
   background: rgb(229, 229, 245);
   height: 600px;
   width: 600px;
 }
 
-.intro-container .intro-text {
+.container .intro-text {
   font-size: large;
 }
 
-.intro-container .laptop-img {
+.container .laptop-img {
   /* align-items: center; */
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.laptop-img .typewriter {
+  font-family: monospace;
+  position: absolute;
+  background: none;
+  height: 400px;
+  width: 400px;
+  top: 48%;
+  left: 70%;
+  transform: translate(-50%, -50%);
 }
 
 /****************** About Me Section ***************************/
 
-.about-me-container {
+/* .container about-me-container {
   background: lightblue;
   height: 700px;
   width: 100%;
@@ -169,29 +180,30 @@ margin-top: 1rem;
   margin: 1rem;
   display: flex;
   flex-direction: row; /* This is default, not needed */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   align-content: normal;
   gap: 1rem;
-  /* justify-content: space-between; */
-}
+  justify-content: space-between;
+} */
 
-.about-me-container .my-img {
+.container .my-img {
   /* padding: 1em; */
-  background: mediumblue;
+  /* background: mediumblue; */
   /* border-radius: 50%;
   align-items: center;
   display: block; */
   /* margin-left: auto;
   margin-right: auto; */
-  width: 400px;
-  height: 400px;
-  align-content: center;
+  /* align-content: center; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.about-me-container .about-me-text {
-  background: rgb(229, 229, 245);
-  width: 600px;
-  height: 600px;
+.container .about-me-text {
+  /* background: rgb(229, 229, 245); */
+  font-size: large
+  /* width: 600px;
+  height: 600px; */
 }
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
