@@ -28,3 +28,5 @@ Notes for Me
  m. apply 60 30 10 colour rule, 60 background light colour, 30% brighter colour, 10% call to action colour.
 
  Use the 5 things to improve principle to continue working on my site. What are 5 things, i don't like, that i can change to make it better. 1 add fonts 2. add space between my text and create a better layout - left and right. 3. Get some nice images to appear alongside my text 4. add in my table with my skills 5. make a nice AI generated image of me.
+
+ 
